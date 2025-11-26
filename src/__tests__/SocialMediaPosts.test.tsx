@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { SocialMediaPosts } from '../components/SocialMediaPosts';
+import { SocialMediaPosts } from '../components/Posts';
 
 describe('SocialMediaPosts', () => {
   it('selects platform and post type, edits caption, and triggers actions', () => {

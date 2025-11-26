@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { BrandingTools } from '../components/BrandingTools';
+import { BrandingTools } from '../components/Tools';
 
 describe('BrandingTools', () => {
   it('updates colors and handles logo actions', () => {

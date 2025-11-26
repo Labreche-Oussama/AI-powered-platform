@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import React from 'react';
-import { ProductCraft } from '../components/ProductCraft';
+import { ProductCraft } from '../components/Product';
 
 describe('ProductCraft', () => {
   it('handles tool selection, background change, and actions', () => {

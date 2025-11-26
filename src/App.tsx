@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
-import { ProductCraft } from './components/ProductCraft';
-import { BrandingTools } from './components/BrandingTools';
-import { SocialMediaPosts } from './components/SocialMediaPosts';
+import { ProductCraft } from './components/Product';
+import { BrandingTools } from './components/Tools';
+import { SocialMediaPosts } from './components/Posts';
 
 type AppView = 'dashboard' | 'craft' | 'branding' | 'social';
 
